@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Curriculo</title>
+</head>
+<body>
+
+    <main>
+
+        <section>
+            <div class="section-container-curriculo">
+                <h2 class="title-curriculo">  Importância do Curriculo </h2>
+                <p class="paragrafo-curriculo">
+                    O currículo é indispensável para qualquer candidato a um emprego, uma vez que é a principal ferramenta para apresentar suas qualificações, experiências e habilidades aos empregadores. <br>
+                    Ele é a primeira impressão, destacando as conquistas e competências do candidato de forma organizada e profissional. <br>
+                    Um currículo bem elaborado pode abrir portas para entrevistas e oportunidades de emprego, demonstrando o profissionalismo e a preparação do candidato para o mercado de trabalho.
+                </p>
+            </div>
+        </section>
+
+        <button id="edit" class="btn-curriculo-editar">EDITAR</button>
+
+        <div class="container">
+            <form id="form">
+
+                <input type="text" id="name" placeholder="Nome">
+                <input type="text" id="road" placeholder="Endereço">
+                <input type="text" id="house-number" placeholder="Número da casa" maxlength="6">
+                <input type="text" id="state" placeholder="Estado">
+                <input type="text" id="phone-number" placeholder="Número de telefone" maxlength="15">  
+                <input type="text" id="email" placeholder="Email">
+                <input type="text" id="objective" placeholder="Objetivo">
+                <input type="text" id="formation-name" placeholder="Formação escolar">
+                <input type="text" id="mudule" placeholder="Semestre">
+                    <input id="formation-adc" class="btn-curriculo" value="Adicionar"/>
+
+                <input type="text" id="work" placeholder="Cargo na empresa">
+                <input type="text" id="enterprise" placeholder="Nome da empresa">
+                <input type="text" id="contribution-time" placeholder="Quanto tempo você ficou na empresa">
+                <div id="btns">
+                    <input type="button" id="work-adc"  class="btn-curriculo" value="Adicionar"/>
+                </div>
+
+                <input type="text" id="main-activities" placeholder="Oque você fazia na empresa">
+                    <input type="button" id="activities-adc"  class="btn-curriculo" value="Adicionar"/>
+
+
+                <input type="text" id="curse" placeholder="Nome do Curso">
+                    <input type="button" id="curse-adc"  class="btn-curriculo" value="Adicionar"/> 
+
+
+                <input type="text" id="skill" placeholder="Fale uma Soft Skills">
+                    <input type="button" id="skill-adc"  class="btn-curriculo" value="Adicionar"/>
+
+
+                <input type="text" id="language" placeholder="Qual idioma você fala">
+                    <input type="button" id="language-adc"  class="btn-curriculo" value="Adicionar"/>
+
+                <button id="save"  class="btn-curriculo">Salvar</button>
+                <button id="cancel" class="btn-curriculo" >Cancelar</button>
+
+            </form>
+    
+        <div class="curriculo">
+            <div id="curriculo-header">
+
+                <p id="relative-name"></p> 
+
+                <div id="adress">
+                    <p id="relative-road"></p>
+                    <p id="relative-house-number"></p>
+                    <p id="relative-state"></p><br>
+                </div>
+
+                <p id="relative-phone-number" class="contact"></p>
+                <p id="relative-email" class="contact"></p>
+
+            </div>
+
+            <section id="objective-sec">
+
+                <h2>Objetivo</h2>
+                <p id="relative-objective"> </p>
+
+            </section>
+
+            <section>
+
+                <h2>Formação Escolar</h2>
+
+                <div id="formations"> </div>
+
+            </section>
+
+            <section>
+
+                <h2>Experiência Profissional</h2>
+                <div id="exp-profi"> </div>
+
+            </section>
+
+            <section>
+
+                <h2>Cursos Extracurriculares</h2>
+                <ul id="relative-curses"> </ul>
+
+            </section>
+
+            <section>
+
+                <h2>Habilidades</h2>
+                <ul id="relative-skills"> </ul>
+
+            </section>
+
+            <section>
+
+                <h2>Idiomas</h2>
+                <ul id="relative-language"> </ul>
+
+            </section>
+        </div>
+    </main>
+    
+</body>
+</html>
