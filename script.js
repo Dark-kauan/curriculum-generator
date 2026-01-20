@@ -105,7 +105,7 @@ formationAdc.addEventListener('click', function() {
 
     // Preenche o conteúdo da formação e do período criando um botao para apagar
     newFormation.innerHTML = `
-        <p>${formation}</p> - <p>${time}</p>
+        <p>${formation} - ${time}</p>
         <button class="formation-remove">Remover</button>`;
 
      // Adiciona a newFormation à formations
